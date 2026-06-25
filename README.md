@@ -1,7 +1,13 @@
-# 集合住宅 幹線計算書 Ver.1.0
+# ApartmentFeederCalculator Ver.2.0
 
-L1〜L6分岐幹線、一次幹線A/B、引込幹線を同時計算するPWAです。
+集合住宅 幹線計算書PWAです。
 
-既存リポジトリ `VoltageDropSelector` の下に `tools/apartment-feeder/` フォルダを作って配置してください。
-
-URL例：`https://hara-den-ctrl.github.io/VoltageDropSelector/tools/apartment-feeder/`
+- 引込幹線 最大2系統
+- 盤内分岐幹線 最大4系統
+- 2次側分岐幹線 L1〜L8
+- 電圧降下判定
+- 需要率マスタ編集
+- ケーブル/MCCBマスタ編集
+- JSON保存/読込
+- A4横印刷/PDF
+- 単線結線図SVG表示
